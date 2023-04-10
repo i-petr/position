@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                height: 2000px;
+            }
+
+            .number {
+                width: 100px;
+                height: 100px;
+            }
+            
+            .one {
+                background-color: brown;
+            }
+            
+            .two {
+                background-color: cyan;
+            }
+
+            .three {
+                background-color: #ff0088;
+            }
+
+            .four {
+                background-color: #ffdd00;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+
+            .papa {
+                background-color: red;
+                position: relative;
+            }
+
+            .five {
+                background-color: green;
+                position: fixed;
+            }
+            
+            .six {
+                background-color: #5900ff;
+            }
+
+            .seven {
+                background-color: hsl(38, 100%, 50%);
+                position: relative;
+                top: 70px;
+            }
+
+            .eight {
+                background-color: hsl(168, 100%, 50%);              
+            }
+
+            .raz {
+                background-color: #555;
+                position: sticky;
+                top: 0;
+            }
+            
+            .dva {
+                background-color: #444;
+            }
+
+            .tri {
+                background-color: #777;
+            }
+
+            .chetire {
+                background-color: #999;              
+            }
+
+            .mama {
+                position: relative;
+                background-color: #000;
+            }
+
+            h1 {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>position: absolute</h1>
+        <div class="papa">
+            <div class="number one"></div>
+            <div class="number two"></div>
+            <div class="number three"></div>
+            <div class="number four"></div>
+        </div>
+        <h1>position: fixed, position: relative</h1>
+        <div>
+            <div class="number five"></div>
+            <div class="number six"></div>
+            <div class="number seven"></div>
+            <div class="number eight"></div>
+        </div>
+        <h1>position: sticky</h1>
+        <div class="mama">
+            <div class="number raz"></div>
+            <div class="number dva"></div>
+            <div class="number tri"></div>
+            <div class="number chetire"></div>
+        </div>
+    </body>
+</html>
